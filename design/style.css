@@ -1,0 +1,41 @@
+img {
+    height: 250px;
+    width: 100%;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+}
+.whole {
+    background-color: white;
+    max-width: 600px;
+    padding: 10px;
+}
+.list {
+    background-color: hsl(24, 5%, 95%);
+    padding: 2px;
+}
+.list > p {
+    color: hsl(332, 51%, 32%);
+    padding-right: 10px;
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+span {
+    color: hsl(24, 50%, 18%);
+}
+.table {
+}
+.table td {
+    width: 200px;
+    padding: 8px 0;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+
+}
+
